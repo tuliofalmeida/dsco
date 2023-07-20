@@ -100,7 +100,8 @@ After the analysis
     │   ├── 23.01.03.cxd              
     │   ├── 23.01.04.cxd             
     │   ├── 23.01.05.cxd              
-    │   ├── 23.01.06.cxd             
+    │   ├── 23.01.06.cxd  
+    │   ├── data_electro_3ROI_results.xlsx # Results in the excel format for 3 ROI's             
     │   └── data_electro_results.xlsx      # Results in the excel format                                                                
     └── ...
 
@@ -138,3 +139,4 @@ The .xlsx file header:
 
 1. All files will be saved on the specific folder, you can check every step in ImageJ (openning the processed .tif files, the ROI's and re-do the metrics). Also, there is the .csv that you can use to do other analysis.
 2. After starting the analysis of a folder do not add more data as it may overwrite some other data.
+2. Dont change the number or ROI's between each file, or you will have some problems with the .xlsx header. In case that you need to have diferent ROI's it's better to group your files based on the amount of ROI's or start with the biggest one to create the .xlsx with the right header, but this can create erros.

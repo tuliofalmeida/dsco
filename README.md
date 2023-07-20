@@ -1,6 +1,6 @@
 # DSCO
 
-In this repository I will store the codes that I developed during my rotation at [DSCO](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization).
+In this repository I will store the codes developed during my rotation at [DSCO](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization).
 
 ## Environment
 
@@ -104,7 +104,7 @@ After the analysis
     │   └── data_electro_results.xlsx      # Results in the excel format                                                                
     └── ...
 
-### xlsx file
+### results.xlsx
 
 The .xlsx file header:
 - File: file name

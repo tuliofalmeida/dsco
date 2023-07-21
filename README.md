@@ -1,6 +1,6 @@
 # DSCO
 
-In this repository I will store the codes developed during my rotation at [Development of the spinal cord organization](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization).
+In this repository I will store the codes developed during my rotation at [Development of the spinal cord organization](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization) team.
 
 ## Contents
 
@@ -61,7 +61,7 @@ you will need to install the following things:
 This is the general pipeline to peform the analysis of the Calcium Image from spinal cords using the Regions of Interest (ROI) manager of ImageJ.
 
 <p align="center">
-  <img width="500" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/images/gp_gui.png">
+  <img width="500" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/gp_gui.png">
 </p>
 
 ### How to use it

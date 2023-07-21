@@ -76,7 +76,7 @@ This is the general pipeline to peform the analysis of the Calcium Image from sp
 3. Determine the parameters in the GUI
     - Choose Folder: this button will open a window which you should pick the folder with the .cxd and .tif files for analysis ([folder organization](#folder-organization)).
     - ROIs: Choose the amount of ROI that you want in your analysis. The pipeline works using pairs of ROI's (2,4,6...), but the option of 3 ROIs will measure calcium dynamics of the activation and will save it as another .xlsx file.
-    - Experiment: Experiment to be analyzed,, Electrostimulation ('Electro') or Optogenetical stimulation ('Opto') when using the entire spinal cord or pick Slice ('Slice') when the data are from spinal cord slices. Each type of experiment has a different image processing routine.
+    - Experiment: Experiment to be analyzed,, Electrostimulation or Spontaneous activity ('Electro') or Optogenetical stimulation ('Opto') when using the entire spinal cord or pick Slice ('Slice') when the data are from spinal cord slices. Each type of experiment has a different image processing routine.
     - Obj size: The objective used during the data acquisition, this will change the pixel value to perform the conversion.
     - Lat. Dis.: Lateral Distance, if 'Yes' after you choose all the ROIs that you previously determined, will be possible to pick an extra one. This ROI is expected to be used to take the width (lateral distance) of the propagation.
     - RUN: this button will start the analysis

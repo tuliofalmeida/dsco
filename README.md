@@ -2,6 +2,11 @@
 
 In this repository I will store the codes developed during my rotation at [Development of the spinal cord organization](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization) team.
 
+<p align="center">
+  <img width="512" height="512" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/logo.png">
+</p>
+
+
 ## Contents
 
 - [Environment](#environment)

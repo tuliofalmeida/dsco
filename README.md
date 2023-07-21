@@ -147,8 +147,8 @@ The .xlsx file header:
     - Rise ROI X: time taken for activation to reach peak (using 10/90)
     - Decay ROI X: time taken for activation from peak to baseline (using 10/90)
     For each pair (the first with the second and so on):
-    - Distance ROI X-Y: distance between ROI's in $\mu$ m
-    - Speed ROI X-Y: speed for the activation to transit between the ROI's $\um$ m/s
+    - Distance ROI X-Y: distance between ROI's in $\mu m$
+    - Speed ROI X-Y: speed for the activation to transit between the ROI's $\mu m/s$
 - ps: For the slice pipeline the xlxs structure is the same
 
 ### Troubleshooting

@@ -188,4 +188,4 @@ Feature branches with lots of small commits (especially titled "oops", "fix typo
 
 Feel free to use this code and edit it! If you use our code we kindly as that you please cite our repository!
 
-## Developed by [Agathe Lafont](https://www.linkedin.com/in/agathe-g-lafont-453a80161/) Lafont and [Tulio Almeida](https://tuliofalmeida.com/)
+## Developed by [Agathe Lafont](https://www.linkedin.com/in/agathe-g-lafont-453a80161/) and [Tulio Almeida](https://tuliofalmeida.com/)

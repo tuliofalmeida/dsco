@@ -24,7 +24,7 @@ To use the codes it is necessary to install pyimagej (library to use ImageJ thro
 If you prefer to use plain pip, or pip with virtualenv,
 you will need to install the following things:
 - Windows
-    - The code has not been tested on linux and in this version is not working on macOS because of the interface (check Troubleshooting).
+    - The code has not been tested on linux and in this version is not working on macOS because of the interface (check [Troubleshooting](#troubleshooting)).
 - [conda](https://conda.io), or you can use:
     - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
     - [mamba](https://mamba.readthedocs.io/en/latest/)
@@ -54,7 +54,7 @@ you will need to install the following things:
     - clone this repository
     - using the terminal (_cd_ command [tutorial](https://fernando-mc.github.io/python3-workshop/navigating-with-a-terminal.html)) go to the repo code folder (or the folder that you put the environment.yml file)
     - type `conda env create`, or the mamba/miniconda command
-5. After the instalation you can check it activatin the repo `conda activate citron` 
+5. After the instalation you can check it by activating the repo `conda activate citron` 
 
 ## C.I.T.R.O.N Jaune
 
@@ -66,10 +66,10 @@ This is the general pipeline to peform the analysis of the Calcium Image from sp
 
 ### How to use it
 
-1. Check the installation guide
+1. Check the [installation guide](#installation)
 2. Start the pipeline using the citron_jaune.ipynb using the VSCode and choose the **citron (Python 3.8.13)** enviroment as kernel, or use the .py script through the terminal using the command `conda run -n citron --live-stream python citron_jaune.py` in the folder that you saved the script (don't need to activate the env). P.S.: It's possible to use the Jupyter (type `jupyter notebook` after activate the env), but I didn't test the GUI using Jupyter directly. The .ipynb or the .py should be in the same folder as the functions.py file.
 3. Determine the parameters in the GUI
-    - Choose Folder: this button will open a window which you should pick the folder with the .cxd and .tif files for analysis (Check Folder organization).
+    - Choose Folder: this button will open a window which you should pick the folder with the .cxd and .tif files for analysis ([folder organization](#folder-organization)).
     - ROIs: Choose the amount of ROI that you want in your analysis. The pipeline works using pairs of ROI's (2,4,6...), but the option of 3 ROIs will measure calcium dynamics of the activation and will save it as another .xlsx file.
     - Experiment: Experiment to be analyzed,, Electrostimulation ('Electro') or Optogenetical stimulation ('Opto') when using the entire spinal cord or pick Slice ('Slice') when the data are from spinal cord slices. Each type of experiment has a different image processing routine.
     - Obj size: The objective used during the data acquisition, this will change the pixel value to perform the conversion.

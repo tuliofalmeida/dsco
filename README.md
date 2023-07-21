@@ -62,7 +62,7 @@ you will need to install the following things:
 This is the general pipeline to peform the analysis of the Calcium Image from spinal cords using the Regions of Interest (ROI) manager of ImageJ through Python.
 
 <p align="center">
-  <img width="500" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/gp_gui.png">
+  <img width="500" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/gui_citron.png">
 </p>
 
 ### How to use it

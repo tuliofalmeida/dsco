@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.8.13
+  - pip=23.1.2
   - imglyb=2.0.1
   - ipywidgets=7.7.0
   - itkwidgets=0.32.0

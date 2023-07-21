@@ -1,6 +1,6 @@
 # DSCO
 
-In this repository I will store the codes developed during my rotation at [DSCO](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization).
+In this repository I will store the codes developed during my rotation at [Development of the spinal cord organization](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization).
 
 ## Contents
 

@@ -58,7 +58,7 @@ you will need to install the following things:
 
 ## C.I.T.R.O.N Jaune
 
-This is the general pipeline to peform the analysis of the Calcium Image from spinal cords using the Regions of Interest (ROI) manager of ImageJ.
+This is the general pipeline to peform the analysis of the Calcium Image from spinal cords using the Regions of Interest (ROI) manager of ImageJ through Python.
 
 <p align="center">
   <img width="500" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/gp_gui.png">
@@ -147,8 +147,8 @@ The .xlsx file header:
     - Rise ROI X: time taken for activation to reach peak (using 10/90)
     - Decay ROI X: time taken for activation from peak to baseline (using 10/90)
     For each pair (the first with the second and so on):
-    - Distance ROI X-Y: distance between ROI's in $m\mu$
-    - Speed ROI X-Y: speed for the activation to transit between the ROI's $m\mu/s$
+    - Distance ROI X-Y: distance between ROI's in $\um$
+    - Speed ROI X-Y: speed for the activation to transit between the ROI's $\um/s$
 - ps: For the slice pipeline the xlxs structure is the same
 
 ### Troubleshooting
@@ -167,6 +167,8 @@ The .xlsx file header:
     - The size of the plot was hardcoded to be full screen (=/), you can change it at line 553 (`fig,ax = plt.subplots()` and pass the parameter that you want `figsize=('x','y')` - x and y must be intergers according to your screen/resolution)
 7. Log file
     - There is no log file from this pipeline, but, it's possible to check the errors and the progressing of the analysis (which file is under analysis and the steps) in the terminal.
+8. The original ImageJ is not available in this environment
+    - you just need to restart the environment, because isn't possible to re-import the ImageJ
 
 ### Hints
 

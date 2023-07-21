@@ -6,7 +6,6 @@ In this repository I will store the codes developed during my rotation at [Devel
   <img width="512" height="512" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/logo.png">
 </p>
 
-
 ## Contents
 
 - [Environment](#environment)
@@ -194,6 +193,6 @@ Feature branches with lots of small commits (especially titled "oops", "fix typo
 
 ## References
 
-Feel free to use this code and edit it! If you use our code we kindly as that you please cite our repository!
+Feel free to use this code and edit it! If you use our code we kindly ask that you please cite our repository!
 
 ## Developed by [Agathe Lafont](https://www.linkedin.com/in/agathe-g-lafont-453a80161/) and [Tulio Almeida](https://tuliofalmeida.com/)

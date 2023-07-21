@@ -2,6 +2,21 @@
 
 In this repository I will store the codes developed during my rotation at [DSCO](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization).
 
+## Contents
+
+- [Environment](#environment)
+    - [Repository files](#repository-files)
+    - [Installation](#installation)
+- [C.I.T.R.O.N Jaune](#citron-jaune)  
+    - [How to use it](#how-to-use-it)
+    - [Folder organization](#folder-organization)
+    - [results.xlsx](#resultsxlsx)
+    - [Troubleshooting](#troubleshooting)
+    - [Hints](#hints)
+- [Contributing](#contributing)
+- [References](#references)
+- [Developers](#developed-by-agathe-lafont-lafont-and-tulio-almeida)   
+
 ## Environment
 
 To use the codes it is necessary to install pyimagej (library to use ImageJ through python), for this it will be necessary to use:
@@ -44,6 +59,10 @@ you will need to install the following things:
 ## C.I.T.R.O.N Jaune
 
 This is the general pipeline to peform the analysis of the Calcium Image from spinal cords using the Regions of Interest (ROI) manager of ImageJ.
+
+<p align="center">
+  <img width="500" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/images/gp_gui.png">
+</p>
 
 ### How to use it
 
@@ -156,7 +175,6 @@ The .xlsx file header:
 3. Dont change the number or ROIs between each file, or you will have some problems with the .xlsx header. In case that you need to have diferent ROIs it's better to group your files based on the amount of ROIs or start with the biggest one to create the .xlsx with the right header, but this can create errors.
 
 ## Contributing
---------------
 
 For minor fixes of code and documentation, please go ahead and submit a pull request.  A gentle introduction to the process can be found [here](https://www.freecodecamp.org/news/a-simple-git-guide-and-cheat-sheet-for-open-source-contributors/).
 

@@ -165,6 +165,7 @@ def GUI():
                      
     # Define Main loop end extract input variables
     master = Tk()
+    master.iconbitmap(r"{}".format(os.path.join(ico_path,'citron.ico')))
     
     GUI=PipelineGUI(master)
     master.mainloop()
@@ -483,6 +484,7 @@ def img_slice(data):
     return z_subs
 
 # call the GUI
+ico_path = os.getcwd()
 GUI()
 print('Folder path:',folder_path)
 print('Files:','\n'.join(files_list))

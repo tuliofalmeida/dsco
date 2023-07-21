@@ -165,7 +165,7 @@ The .xlsx file header:
 5. Using in Linux (Ubuntu) or macOS
     - The only problem found with the other OS was the library used to create the interface (tkinter), probably the code will work removing the interface and passing the parameters manually or creating another interface (using PyQt). For this you will need a basic knowledge of python. The codes were written using procedural programming, for ease of editing and use.
 6. Plot to pick ROIs in bad shape
-    - The size of the plot was hardcoded to be full screen (=/), you can change it at line 555 (`fig,ax = plt.subplots()` and pass the parameter that you want `figsize=('x','y')` - x and y must be intergers according to your screen/resolution)
+    - The size of the plot was hardcoded to be full screen (=/), you can change it around line 550 (`fig,ax = plt.subplots()` and pass the parameter that you want `figsize=('x','y')` - x and y must be intergers according to your screen/resolution)
 7. Log file
     - There is no log file from this pipeline, but, it's possible to check the errors and the progressing of the analysis (which file is under analysis and the steps) in the terminal.
 8. The original ImageJ is not available in this environment

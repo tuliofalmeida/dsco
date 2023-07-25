@@ -104,7 +104,7 @@ This is how your folder should be organized before the analysis
 
     .
     ├── ...
-    ├── data_electro                      # Experiment folder with the data (folder to chose in the GUI)
+    ├── data_electro                      # Experiment folder with the data (folder to choose in the GUI)
     │   ├── 23.01.01.cxd                  # Raw data   
     │   ├── 23.01.02.cxd              
     │   ├── 23.01.03.cxd             

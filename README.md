@@ -63,7 +63,7 @@ you will need to install the following things:
 
 ## C.I.T.R.O.N Jaune
 
-This is the general pipeline to peform the analysis of the Calcium Image from spinal cords using the Regions of Interest (ROI) manager of ImageJ through Python.
+This is the general pipeline (or pipelime) to peform the analysis of the Calcium Image from spinal cords using the Regions of Interest (ROI) manager of ImageJ through Python.
 
 <p align="center">
   <img width="500" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/gui_citron.png">
@@ -174,6 +174,10 @@ The .xlsx file header:
     - There is no log file from this pipeline, but, it's possible to check the errors and the progressing of the analysis (which file is under analysis and the steps) in the terminal.
 8. The original ImageJ is not available in this environment
     - you just need to restart the environment, because isn't possible to re-import the ImageJ
+
+<p align="center">
+  <img width="800" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/citron_horizontal.png">
+</p>
 
 ### Hints
 

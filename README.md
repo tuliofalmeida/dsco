@@ -33,7 +33,7 @@ you will need to install the following things:
     - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
     - [mamba](https://mamba.readthedocs.io/en/latest/)
 - Python 3.8
-- OpenJDK 8 or 11 – any flavor is fine [Zulu JDK+FX 8](https://www.azul.com/downloads/zulu-community/?version=java-8-lts&package=jdk-fx) works well
+- OpenJDK [8](https://www.oracle.com/fr/java/technologies/javase/javase8-archive-downloads.html) or [11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html) – any flavor is fine [Zulu JDK+FX 8](https://www.azul.com/downloads/zulu-community/?version=java-8-lts&package=jdk-fx) works well
 - [Apache Maven](https://maven.apache.org/)
 
 ### Repository files
@@ -50,10 +50,10 @@ you will need to install the following things:
 
 ### Installation
 
-1. Install the OpenJDK updating the [path](https://www.java.com/en/download/help/path.html) 
-    - How to [test it](https://www.baeldung.com/find-java-home)
+1. Install the OpenJDK updating system path ([windows and linux](https://www.geeksforgeeks.org/how-to-set-java-path-in-windows-and-linux/), [macOS](https://mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/))
+    - How to [test it](https://www.baeldung.com/find-java-home)!
 2. Install maven updating the [path](https://www.java.com/en/download/help/path.html) 
-    - How to [test it](https://stackoverflow.com/questions/24221361/checking-maven-version)
+    - How to [test it](https://stackoverflow.com/questions/24221361/checking-maven-version)!
 3. Install conda
 4. Create the environment
     - clone this repository

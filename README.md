@@ -1,3 +1,8 @@
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/tuliofalmeida/dsco)
+[![version](https://img.shields.io/badge/Python-3.8-blue)]([https://pypi.org/project/pyratlib/](https://github.com/tuliofalmeida/dsco/blob/main/code/environment.yml))
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/tuliofalmeida/dsco)
+
+
 # Calcium Imaging Treatment using ROis; Numpy & Scipy pipeline
 
 In this repository I will store the codes developed during my rotation at [Development of the spinal cord organization](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization) team.

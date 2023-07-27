@@ -176,7 +176,7 @@ The .xlsx file header:
     - you just need to restart the environment, because isn't possible to re-import the ImageJ
 
 <p align="center">
-  <img width="800" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/citron_horizontal.png">
+  <img width="800" height="400" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/citrons_horizontal.png">
 </p>
 
 ### Hints

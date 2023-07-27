@@ -1,4 +1,4 @@
-name: citron
+name: citrons
 channels:
   - conda-forge
   - defaults

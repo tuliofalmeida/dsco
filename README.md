@@ -5,7 +5,8 @@
 
 # Calcium Imaging Treatment using ROis; Numpy & Scipy pipeline
 
-In this repository I will store the codes developed during my rotation at [Development of the spinal cord organization](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization) team.
+C.I.T.R.O.N.S is a pipeline to peform the analysis of epifluroscence data, performing the processing of the raw data, determining the ROIs and measuring the metrics.
+This work was developed at [Development of the spinal cord organization](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization) lab. This pipeline was developed to perform the analysis presented in the paper Lafont et. al, 2023 (check [references](#references)).
 
 <p align="center">
   <img width="512" height="512" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/logo.png">
@@ -16,7 +17,7 @@ In this repository I will store the codes developed during my rotation at [Devel
 - [Environment](#environment)
     - [Repository files](#repository-files)
     - [Installation](#installation)
-- [C.I.T.R.O.N.S Jaune](#citrons-jaunes)  
+- [C.I.T.R.O.N.S Jaune](#citrons-jaune)  
     - [How to use it](#how-to-use-it)
     - [Folder organization](#folder-organization)
     - [results.xlsx](#resultsxlsx)
@@ -24,7 +25,7 @@ In this repository I will store the codes developed during my rotation at [Devel
     - [Hints](#hints)
 - [Contributing](#contributing)
 - [References](#references)
-- [Developers](#developed-by-agathe-lafont-lafont-and-tulio-almeida)   
+- [Developers](#developed-by-agathe-lafont-and-tulio-almeida)   
 
 ## Environment
 
@@ -77,7 +78,7 @@ This is the general pipeline (or pipelime) to peform the analysis of the Calcium
 ### How to use it
 
 1. Check the [installation guide](#installation)
-2. Start the pipeline using the citrons_jaunes.ipynb using the VSCode and choose the **citrons (Python 3.8.13)** environment as kernel, or use the .py script through the terminal using the command `conda run -n citrons --live-stream python citron_jaune.py` in the folder that you saved the script (don't need to activate the env). P.S.: It's possible to use the Jupyter (type `jupyter notebook` after activate the env), but I didn't test the GUI using Jupyter directly. The .ipynb or the .py should be in the same folder as the functions.py file.
+2. Start the pipeline using the citrons_jaunes.ipynb using the VSCode and choose the **citrons (Python 3.8.13)** environment as kernel, or use the .py script through the terminal using the command `conda run -n citrons --live-stream python citrons_jaunes.py` in the folder that you saved the script (don't need to activate the env). P.S.: It's possible to use the Jupyter (type `jupyter notebook` after activate the env), but I didn't test the GUI using Jupyter directly. The .ipynb or the .py should be in the same folder as the functions.py file.
 3. Determine the parameters in the GUI
     - Choose Folder: this button will open a window which you should pick the folder with the .cxd and .tif files for analysis ([folder organization](#folder-organization)).
     - ROIs: Choose the amount of ROI that you want in your analysis. The pipeline works using pairs of ROI's (2,4,6...), but the option of 3 ROIs will measure calcium dynamics of the activation and will save it as another .xlsx file.

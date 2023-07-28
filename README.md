@@ -5,7 +5,8 @@
 
 # Calcium Imaging Treatment using ROis; Numpy & Scipy pipeline
 
-In this repository I will store the codes developed during my rotation at [Development of the spinal cord organization](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization) team.
+C.I.T.R.O.N.S is a pipeline to peform the analysis of epifluroscence data, performing the processing of the raw data, determining the ROIs and measuring the metrics.
+This work was developed at [Development of the spinal cord organization](https://www.ibps.sorbonne-universite.fr/en/research/neuroscience/development-of-the-spinal-cord-organization) lab. This pipeline was developed to perform the analysis presented in the paper Lafont et. al, 2023 (check [references](#references)).
 
 <p align="center">
   <img width="512" height="512" src="https://github.com/tuliofalmeida/dsco/blob/main/docs/logo.png">
@@ -16,7 +17,7 @@ In this repository I will store the codes developed during my rotation at [Devel
 - [Environment](#environment)
     - [Repository files](#repository-files)
     - [Installation](#installation)
-- [C.I.T.R.O.N.S Jaune](#citrons-jaunes)  
+- [C.I.T.R.O.N.S Jaune](#citrons-jaune)  
     - [How to use it](#how-to-use-it)
     - [Folder organization](#folder-organization)
     - [results.xlsx](#resultsxlsx)
@@ -24,7 +25,7 @@ In this repository I will store the codes developed during my rotation at [Devel
     - [Hints](#hints)
 - [Contributing](#contributing)
 - [References](#references)
-- [Developers](#developed-by-agathe-lafont-lafont-and-tulio-almeida)   
+- [Developers](#developed-by-agathe-lafont-and-tulio-almeida)   
 
 ## Environment
 

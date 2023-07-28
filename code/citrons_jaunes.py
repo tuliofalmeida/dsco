@@ -46,7 +46,7 @@ def GUI():
     class PipelineGUI():
         def __init__(self, master):
             self.master=master
-            self.master.title("C.I.T.R.O.N")
+            self.master.title("C.I.T.R.O.N.S")
             self.master.geometry("500x400+10+10")
             self.master.attributes("-topmost", True)
             self.master.eval('tk::PlaceWindow . center')
@@ -65,8 +65,8 @@ def GUI():
                 del folder_path
             except:
                 pass
-            self.pickFolderBtn = Button(master, text="Chose Folder", width=16,
-                                        command = self.folderPicker,font=("Cordia New", 10))
+            self.pickFolderBtn = Button(master, text="Choose Folder", width=16,
+                                        command = self.folderPicker,font=("Arial", 10))
             self.pickFolderBtn.place(x=180, y=70)
             
             # list of rois
@@ -75,7 +75,7 @@ def GUI():
             self.w = OptionMenu(master, self.variable, *OPTIONS)
             self.w.place(x=230, y=120)
             self.lbl_roi=Label(master, text="ROIs", fg='black', 
-                               font=("Cordia New", 10))
+                               font=("Arial", 10))
             self.lbl_roi.place(x=190, y=125)
 
             # list of modes
@@ -84,7 +84,7 @@ def GUI():
             self.w = OptionMenu(master, self.mode, *MODES)
             self.w.place(x=230, y=165)
             self.lbl_roi=Label(master, text="Experiment", fg='black', 
-                               font=("Cordia New", 10))
+                               font=("Arial", 10))
             self.lbl_roi.place(x=140, y=172)
 
             # list of objective size
@@ -93,7 +93,7 @@ def GUI():
             self.w = OptionMenu(master, self.zoom, *ZOOM)
             self.w.place(x=230, y=210)
             self.lbl_roi=Label(master, text="Obj size", fg='black', 
-                               font=("Cordia New", 10))
+                               font=("Arial", 10))
             self.lbl_roi.place(x=165, y=215)
 
             # distance measure
@@ -102,21 +102,21 @@ def GUI():
             self.w = OptionMenu(master, self.dis, *FIFTH)
             self.w.place(x=230, y=260)
             self.lbl_roi=Label(master, text="Lat. Dis.", fg='black', 
-                               font=("Cordia New", 10))
+                               font=("Arial", 10))
             self.lbl_roi.place(x=165, y=265)
 
             # close button
             self.quitBtn = Button(master, text="RUN!", width=10,
-                                 command = self.paths,font=("Cordia New", 10))
+                                  command = self.paths,font=("Arial", 10))
             self.quitBtn.place(x=207, y=320)
 
             # title label
-            self.lbl=Label(master, text="C.I.T.R.O.N Jaune", fg='black', 
-                        font=("Cordia New", 15))
-            self.lbl.place(x=150, y=20)
+            self.lbl=Label(master, text="C.I.T.R.O.N.S Jaune", fg='black', 
+                           font=("Arial", 15))
+            self.lbl.place(x=135, y=20)
 
             # alfa label
-            self.Lower_left = Label(master,text ='Alpha Version - Developed by Agathe Lafont and Tulio Almeida',font=("Cordia New", 10))
+            self.Lower_left = Label(master,text ='Alpha Version - Developed by Agathe Lafont and Tulio Almeida',font=("Arial", 10))
             self.Lower_left.place(relx = 0.03,rely = 1.0,anchor ='sw')
 
         # Functions for GUI 
@@ -165,7 +165,7 @@ def GUI():
                      
     # Define Main loop end extract input variables
     master = Tk()
-    master.iconbitmap(r"{}".format(os.path.join(ico_path,'citron.ico')))
+    master.iconbitmap(r"{}".format(os.path.join(ico_path,'citrons.ico')))
     
     GUI=PipelineGUI(master)
     master.mainloop()
